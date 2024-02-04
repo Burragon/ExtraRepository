@@ -1,6 +1,6 @@
 function calc() {
   const CurrentTotal = document.getElementById("total");
-  let NewTotal = Number(CurrentTotal.value);
+  let NewTotal = CurrentTotal.value;
   const Result = (NewTotal + 1)
   CurrentTotal.textContent = toString(Result);
 }
