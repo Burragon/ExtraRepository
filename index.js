@@ -1,5 +1,5 @@
 // add one to money
-
+ 
 function calculate() {
     // Get the current money value
     const moneyElement = document.getElementById("CurrentMoney");
